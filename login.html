@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico" type="image/x-icon">
+    <title>Netflix</title>
+    <style>
+        html {
+            height: 100vh;
+        }
+
+        body{
+            position: relative;
+            background: #141414;
+            color: #808080;
+            height: 100vh;
+            overflow: hidden;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            margin: 2vh;
+            color: #FFFFFF;
+            font-size: 3em;
+            font-weight: 400;
+        }
+
+        h3 {
+            margin: 0.5em;
+            font-weight: 400;
+        }
+
+        .wraper {
+            animation: inicializar 0.4s ease-out;
+            position: absolute;
+            top: 22%;
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2vh;
+        }
+        
+        .blocks {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 2vw;
+        }
+
+        .block {
+            width: 136px;
+            height: 136px;
+            border: 2px solid #141414;
+            border-radius: 8px;
+        }
+        
+        .container:hover .block{
+            border: 2px solid #FFF;
+        }
+
+        .container:hover h3{
+            color: #FFF;
+            cursor: pointer;
+        }
+
+        .block-1 {
+            background-image: url("http://occ-0-894-185.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY5cwIbM7shRfcXmfQg98cqMqiZZ8sReZnj4y_keCAHeXmG_SoqLD8SXYistPtesdqIjcsGE-tHO8RR92n7NyxZpqcFS80YfbRFz.png?r=229");
+            background-size: 100%;
+        }
+
+        .block-2 {
+            background-image: url("http://occ-0-894-185.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABYgOvk46y0Q-MIZAd65VLVooksaSlcfEL-J8n3ldNl5c4rN_LJU6SLmtifc_tZEp0nlLcKZFQEngBBBPzlyE5CMEukOHOLB7jsm4.png?r=d1e");
+            background-size: 100%;
+        }
+
+        .block-3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .b3:hover .block-3{
+            background: #E5E5E5;
+        }
+
+        .b3:hover rect{
+            fill: #E5E5E5;
+        }
+
+        button {
+            background: none;
+            border: 1px solid #808080;
+            width: 175px;
+            height: 40px;
+            margin: 6vh;
+        }
+
+        button:hover {
+            border: 1px solid #FFF;
+            cursor: pointer;
+        }
+
+        button:hover  a{
+            color: #FFF;
+        }
+
+        button a{
+            font-size: 1.3em;
+        }
+        
+        a{
+            text-decoration: none;
+            color: #808080;
+            font-size: 1em;
+        }
+
+        rect {
+            fill: #141414;
+        }
+
+        @keyframes inicializar {
+            from {
+                opacity: 0;
+                transform: scale(1.15);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wraper">
+        <h1>Quem está assistindo?</h1>
+        <div class="blocks">
+            <div class="container">
+                <a href="index.html">
+                    <div class="block block-1"></div>
+                    <h3>Visitante</h3>
+                </a>
+            </div>
+            <div class="container">
+                <a href="#">
+                    <div class="block block-2"></div>
+                    <h3>Infantil</h3>
+                </a>
+            </div>
+            <div class="container b3">
+                <div class="block block-3">
+                    <svg width="120" height="120">
+                        <circle cx="60" cy="60" r="40" fill="#808080" />
+                        <rect x="53" y="36" width="14" height="48"/>
+                        <rect x="36" y="53" width="48" height="14"/>
+                      </svg>
+                </div>
+                <h3>Adicionar perfil</h3>
+            </div>
+        </div>
+        <button><a href="">Gerenciar perfis</a></button>
+    </div>
+</body>
+</html>
