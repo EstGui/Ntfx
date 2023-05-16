@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 576px){
-    body {
+    body, html {
         width: 100vw;
         background: #141414;
         overflow-x: hidden;
@@ -32,8 +32,8 @@
     }
 
     #logo {
-        width: 6.5em;
-        margin-right: 2vw;
+        width: 4em;
+        margin-right: 0.5vw;
     }
 
     nav {
@@ -46,7 +46,7 @@
         align-items: center;
         font-family: sans-serif;
         font-weight: 500;
-        font-size: 0.8em;
+        font-size: 0.5em;
         color: #FFF;
         z-index: 5;
     }
@@ -59,11 +59,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
     }
 
     .more {
-        width: 17.5%;
+        width: 40%;
     }
 
     .more ul {
@@ -104,13 +104,14 @@
 
     .banner {
         padding: 2vh 4vw;
-        height: 400px;
+        width: 100vw;
+        height: 200px;
         background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXISOVvvj1Dia4IhDKiRrNfHHe-BBsg5dd5tMrabhtm4ozTkN5Ykk-RKMrtUFZ4YkUNZXK2FncxQI37SGCt_YI2dPEZXDVJFNlF7.webp?r=fba");
         background-size: cover;
     }
 
     .banner img {
-        width: 15rem;
+        width: 8rem;
     }
 
     /* .banner video {
@@ -123,12 +124,12 @@
 
 
     .info {
-        width: 35.5%;
+        width: 40%;
         display: flex;
         flex-direction: column;
-        gap: 2vh;
+        gap: 1vh;
         position: absolute;
-        top: 10%;
+        top: 4%;
         color: #FFF;
         font-family: sans-serif;
         z-index: 1;
@@ -136,12 +137,12 @@
 
     .info h3 {
         text-shadow: 1px 1px 4px #000000ad;
-        font-size: 1.0em;
+        font-size: 0.5em;
     }
 
     .info p {
         text-shadow: 1px 1px 2px #000000ad;
-        font-size: 0.75em;
+        font-size: 0.5em;
     }
 
     .buttons {
@@ -154,8 +155,8 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 35px;
-        font-size: 0.75em;
+        height: 25px;
+        font-size: 0.5em;
         font-weight: 600;
         border: none;
         border-radius: 5px;
@@ -167,13 +168,13 @@
     }
 
     .maisi {
-        width: 240px;
+        width: 300px;
         background: #777777bb;
         color: #FFF;
     }
 
     .container {
-        margin-top: -25vh;
+        margin-top: 0vh;
     }
 
     .recomended {
@@ -183,7 +184,7 @@
         color: #FFF;
         font-family: sans-serif;
         font-size: 0.85em;
-        gap: 10px;
+        gap: 0px;
         width: 100%;
     }
 
@@ -213,7 +214,7 @@
         position: relative;
         background: #141414;
         width: 200px;
-        height: 110px;
+        height: 85px;
         transition: all 0.2s ease-in-out;
         z-index: 1;
         transition-delay: 0.5s;
@@ -335,8 +336,8 @@
     }
 
     #logo {
-        width: 6.5em;
-        margin-right: 2vw;
+        width: 4.5em;
+        margin-right: 1vw;
     }
 
     nav {
