@@ -32,7 +32,7 @@
     }
 
     #logo {
-        width: 4em;
+        width: 5em;
         margin-right: 0.5vw;
     }
 
@@ -46,24 +46,40 @@
         align-items: center;
         font-family: sans-serif;
         font-weight: 500;
-        font-size: 0.5em;
+        font-size: 1em;
         color: #FFF;
         z-index: 5;
     }
 
     .navegacao {
-        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 33%;
     }
 
     .navegacao ul {
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 50vw;
+        height: 90vh;
+        background: rgba(14, 14, 14, 1);
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-around;
         align-items: center;
-        gap: 5px;
+        transform: translateX(-100%);
+        /* gap: 5px; */
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
     }
 
     .more {
-        width: 40%;
+        width: 50%;
     }
 
     .more ul {
@@ -73,7 +89,7 @@
     }
 
     .user img {
-        width: 2rem;
+        width: 1.5rem;
     }
 
     li {
@@ -188,6 +204,16 @@
         width: 100%;
     }
 
+    .content {
+        width: 100%;
+        overflow: auto;
+        padding: 0;
+    }
+
+    .content::-webkit-scrollbar{
+        width: 0;
+    }
+
     .slider {
         position: relative;
         padding-right: 2vw;
@@ -227,17 +253,17 @@
     }
 
     .slider {
-        overflow: visible;
+        overflow: scroll;
     }
 
-    .opt:hover {
+   /*  .opt:hover {
         width: 330px;
         height: 360px;
         z-index: 2;
         border-radius: 7px;
         box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
         margin: 0 -45px;
-    }
+    } */
 
     .opt:hover img {
         transition-delay: 0.5s;
@@ -310,7 +336,7 @@
 
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
-    body {
+    body, html {
         width: 100vw;
         background: #141414;
         overflow-x: hidden;
@@ -336,8 +362,8 @@
     }
 
     #logo {
-        width: 4.5em;
-        margin-right: 1vw;
+        width: 6.5em;
+        margin-right: 0.5vw;
     }
 
     nav {
@@ -350,24 +376,40 @@
         align-items: center;
         font-family: sans-serif;
         font-weight: 500;
-        font-size: 0.8em;
+        font-size: 1em;
         color: #FFF;
         z-index: 5;
     }
 
     .navegacao {
-        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 22%;
     }
 
     .navegacao ul {
+        position: absolute;
+        top: 9vh;
+        left: 0;
+        width: 50vw;
+        height: 91vh;
+        background: rgba(14, 14, 14, 1);
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-around;
         align-items: center;
-        gap: 10px;
+        transform: translateX(-100%);
+        /* gap: 5px; */
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
     }
 
     .more {
-        width: 17.5%;
+        width: 28%;
     }
 
     .more ul {
@@ -427,12 +469,12 @@
 
 
     .info {
-        width: 35.5%;
+        width: 40%;
         display: flex;
         flex-direction: column;
-        gap: 2vh;
+        gap: 1.8vh;
         position: absolute;
-        top: 10%;
+        top: 7%;
         color: #FFF;
         font-family: sans-serif;
         z-index: 1;
@@ -477,7 +519,7 @@
     }
 
     .container {
-        margin-top: -25vh;
+        margin-top: -10vh;
     }
 
     .recomended {
@@ -491,10 +533,15 @@
         width: 100%;
     }
 
+    .content {
+        width: 100%;
+        overflow: auto;
+    }
+
     .slider {
         position: relative;
         padding-right: 2vw;
-        width: 260%;
+        width: 170%;
         height: 110px;
         display: flex;
         flex-direction: row;
@@ -533,14 +580,14 @@
         overflow: visible;
     }
 
-    .opt:hover {
+/*     .opt:hover {
         width: 330px;
         height: 360px;
         z-index: 2;
         border-radius: 7px;
         box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
         margin: 0 -45px;
-    }
+    } */
 
     .opt:hover img {
         transition-delay: 0.5s;
@@ -618,7 +665,7 @@
 
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
-    body {
+    body, html{
         width: 100vw;
         background: #141414;
         overflow-x: hidden;
