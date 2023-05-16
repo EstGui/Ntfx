@@ -729,14 +729,22 @@
         z-index: 5;
     }
 
+    .mobile-menu{
+        display: none;
+    }
+
     .navegacao {
         width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .navegacao ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 80%;
     }
 
     .more {
