@@ -39,7 +39,7 @@
     nav {
         background: rgba(14, 14, 14, var(--op));
         position: fixed;
-        width: 100%;
+        width: 100vw;
         padding: 2.7vh 4vw;
         display: flex;
         justify-content: space-between;
@@ -128,7 +128,7 @@
         flex-direction: column;
         gap: 2vh;
         position: absolute;
-        top: 5%;
+        top: 10%;
         color: #FFF;
         font-family: sans-serif;
         z-index: 1;
@@ -173,7 +173,7 @@
     }
 
     .container {
-        margin-top: -12vh;
+        margin-top: -25vh;
     }
 
     .recomended {
