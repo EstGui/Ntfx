@@ -60,10 +60,10 @@
 
     .navegacao ul {
         position: absolute;
-        top: 10vh;
+        top: 9vh;
         left: 0;
         width: 50vw;
-        height: 90vh;
+        height: 91vh;
         background: rgba(14, 14, 14, 1);
         display: flex;
         flex-direction: column;
@@ -78,8 +78,16 @@
         transform: translateX(0);
     }
 
+    .more svg{
+        height: 1.2em;
+    }
+
     .more {
-        width: 50%;
+        width: 45%;
+    }
+
+    .more li{
+        font-size: 0.8em;
     }
 
     .more ul {
@@ -105,7 +113,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
     }
 
     .user svg {
@@ -127,7 +135,7 @@
     }
 
     .banner img {
-        width: 8rem;
+        width: 8.5rem;
     }
 
     /* .banner video {
@@ -140,12 +148,12 @@
 
 
     .info {
-        width: 40%;
+        width: 45%;
         display: flex;
         flex-direction: column;
-        gap: 1vh;
+        gap: 1.5vh;
         position: absolute;
-        top: 4%;
+        top: 5%;
         color: #FFF;
         font-family: sans-serif;
         z-index: 1;
@@ -159,6 +167,7 @@
     .info p {
         text-shadow: 1px 1px 2px #000000ad;
         font-size: 0.5em;
+        display: none;
     }
 
     .buttons {
@@ -171,11 +180,15 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 25px;
+        height: 20px;
         font-size: 0.5em;
         font-weight: 600;
         border: none;
         border-radius: 5px;
+    }
+
+    button > svg {
+        width: 4vw;
     }
 
     .assistir {
@@ -184,22 +197,22 @@
     }
 
     .maisi {
-        width: 300px;
+        width: 350px;
         background: #777777bb;
         color: #FFF;
     }
 
     .container {
-        margin-top: 0vh;
+        margin-top: -5vh;
     }
 
     .recomended {
-        margin: 4vw;
+        margin: 0 4vw;
         display: flex;
         flex-direction: column;
         color: #FFF;
         font-family: sans-serif;
-        font-size: 0.85em;
+        font-size: 0.8em;
         gap: 0px;
         width: 100%;
     }
@@ -207,7 +220,6 @@
     .content {
         width: 100%;
         overflow: auto;
-        padding: 0;
     }
 
     .content::-webkit-scrollbar{
