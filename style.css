@@ -402,10 +402,10 @@
 
     .navegacao ul {
         position: absolute;
-        top: 9vh;
+        top: 14vh;
         left: 0;
         width: 50vw;
-        height: 91vh;
+        height: 86vh;
         background: rgba(14, 14, 14, 1);
         display: flex;
         flex-direction: column;
@@ -420,9 +420,6 @@
         transform: translateX(0);
     }
 
-    .more svg{
-        height: 1.2em;
-    }
     
     .more {
         width: 28%;
@@ -489,7 +486,7 @@
         width: 40%;
         display: flex;
         flex-direction: column;
-        gap: 1.8vh;
+        gap: 3vh;
         position: absolute;
         top: 7%;
         color: #FFF;
@@ -505,7 +502,7 @@
     .info p {
         text-shadow: 1px 1px 2px #000000ad;
         font-size: 0.75em;
-        display: none;
+        /* display: none; */
     }
 
     .buttons {
@@ -541,7 +538,7 @@
     }
 
     .container {
-        margin-top: -10vh;
+        margin-top: -28vh;
     }
 
     .recomended {
