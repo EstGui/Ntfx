@@ -420,8 +420,13 @@
         transform: translateX(0);
     }
 
+    .more svg{
+        height: 1.2em;
+    }
+    
     .more {
         width: 28%;
+        font-size: 0.8em;
     }
 
     .more ul {
@@ -500,6 +505,7 @@
     .info p {
         text-shadow: 1px 1px 2px #000000ad;
         font-size: 0.75em;
+        display: none;
     }
 
     .buttons {
@@ -513,10 +519,14 @@
         justify-content: space-around;
         align-items: center;
         height: 35px;
-        font-size: 0.75em;
+        font-size: 0.8em;
         font-weight: 600;
         border: none;
         border-radius: 5px;
+    }
+
+    button > svg {
+        width: 4vw;
     }
 
     .assistir {
