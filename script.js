@@ -14,24 +14,6 @@ function opa(e) {
     pos.style.setProperty('--op', opacity)
 }
 
-/* let seg = 0;
-
-function contarTempo() {
-  seg++;
-  console.log(seg);
-
-  showTrailer()
-}
-
-setInterval(contarTempo, 1000);
-
-function showTrailer(){
-    if (window.scrollY == 0 && seg > 5) {
-        video.play()
-        // Iniciar a contagem do tempo
-    }
-}
- */
 
 /* EPISODES LIST */
 const minha_lista = [
@@ -485,6 +467,7 @@ function renderCard(lista, titulo) {
 
 
 
+/* MENU HAMBURGUER */
 class MobileNavbar {
     constructor(mobileMenu, navList, navLinks) {
         this.mobileMenu = document.querySelector(mobileMenu);
@@ -511,9 +494,6 @@ class MobileNavbar {
         return this
     }
 }
-
-
-
 
 const mobileNavbar = new MobileNavbar (
     ".mobile-menu",
