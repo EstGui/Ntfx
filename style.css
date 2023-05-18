@@ -1339,7 +1339,7 @@
 }
 
 
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
     body, html{
         width: 100vw;
         background: #141414;
