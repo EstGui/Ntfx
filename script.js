@@ -481,6 +481,7 @@ class MobileNavbar {
     handleClick() {
         console.log(this);
         this.navList.classList.toggle(this.activeClass)
+        pos.style.setProperty('--op', "1")
     }
 
     addClickEvent() {
