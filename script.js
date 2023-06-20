@@ -395,7 +395,7 @@ function renderCard(lista, titulo) {
 
     listItem.innerHTML = `
 
-    <img src="../imagens/${titulo.img}.jpg">
+    <img src="imagens/${titulo.img}.jpg">
 
     <div class="minfo">
         <div class="btns">
