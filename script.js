@@ -18,7 +18,7 @@ function opa(e) {
 /* EPISODES LIST */
 const minha_lista = [
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSMdzWmaEM_IBBjN6ePXrrkSxnCpliUQN6JrK0g1NVVLnJbhZ3o58nTLsfqGogfd9TtP9uUMBeEJd0hEITRidl7snCGW0sm_SDjCFyPg3fTTiYwI7DNYuvaxZkgCgNoBTovj.jpg?r=697",
+        img: "SandMan",
         relevancia: "97% relevante",
         clas_ind: "https://help.nflxext.com/0e20cb34-1429-41ad-8bf9-c08616e63cf0_icon_ratings_BR_A18_en.png",
         qtd_ep: "11 episódios",
@@ -26,7 +26,7 @@ const minha_lista = [
     },
 
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABR9Q1lnThbbzLhCf8aRzyNOei69lEn45tlju84zdlZ1MHW8-VVkTHUH_2pgAUjR5jRMzE_5TMn4Rjp5PbIOv5cLtuHdI9r8QLPXFpmOzWw0TjHq5RBRFN3Cz8-aMapbVYN8Y.jpg?r=a18",
+        img: "Gambito",
         relevancia: "97% relevante",
         clas_ind: "https://help.nflxext.com/02768458-4248-4520-9d12-2f2d98826f81_icon_ratings_BR_16_en.png",
         qtd_ep: "Minissérie",
@@ -34,7 +34,7 @@ const minha_lista = [
     },
 
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWJ4m9z_PfIiP1VYWMpRClq1xYpE8_J3iUCPqrnX4W-ZXH5MqfsAP7F-HE55ivSk3dNY9fnFQAfEi6XFxmlJORAkiLMWVKqbL_zq73zEBbXUcdeFDxTOCEVhrkb7Lth9Q5BJ.jpg?r=431",
+        img: "TEOTFW",
         relevancia: "95% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "2 temporadas",
@@ -42,7 +42,7 @@ const minha_lista = [
     },
 
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYuKjjKMzFh6RN2q7ml5nJDrNguQzImqCdD7tTYKKUXYnliwYVjasxzPERdiwpcDhL8zqUyaRHnRhYWtajxpwaRLf1FUTtHR7CGGFkn028rZF0CCpGfBAYA-e6H0DdaVUrdO.jpg?r=393",
+        img: "DARK",
         relevancia: "88% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "3 temporadas",
@@ -50,7 +50,7 @@ const minha_lista = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZ4kTYxjV7lECALzt6h-hnwdx1xe_cwCSRNWyKAax_a1cP_vttn0LiC1wW3dmn2nRlDPnWRKhI1ymZK0_WX9HIX316dhPAlzqzSiLtBAVnEtlXp87sEszb4xFYyO1VwDbUSz.jpg?r=e74",
+        img: "abstract",
         relevancia: "93% relevante",
         clas_ind: "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
         qtd_ep: "2 temporadas",
@@ -58,7 +58,7 @@ const minha_lista = [
     },
 
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcVz7eGUvU9mNnXnRJ9XrNdPtHKmjTim0tq5eaDCUg_hWayw_wHYaYkX0qohmJU0BJkoJnqrcQVmTwnoX3vXebycawqFGRw8UwFqagm4NRRUBnNq6S19t6XNJigs-jxm6Maf.jpg?r=cee",
+        img: "lucifer",
         relevancia: "93% relevante",
         clas_ind: "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
         qtd_ep: "6 temporadas",
@@ -68,7 +68,7 @@ const minha_lista = [
 
 const em_alta = [
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABe0kLDD7JKkLXBxLWsGNotbypKpOHwfaF9AC3Mg6g1l9Sz4v5GLp11avPug8bhtWTIcLCP0zFUxA3TQTq36oy5SOb0oEn7QFkcKTgoxpmLtcMHWJR1JXpTnexJoM-npgo7dVl-D1yeZUxHj3T4oXsjlUndviS_rc4WY9gRE8zPT9ruTUw06NH_g1kJ_GwlUlNoGJ649luxgdZFcwDN6KDCDCj5jra8NrD1Vtj2So75SmW3zfIFw-kgZefv6IDDjJ5JaNXVpbNty7X6gwBfIGtCzUGpLep3QWRXYFHreozxc-gJfQN1dE0uuONd5RTOsgbJ5hbOFc-OoknBVMTA56iRxAZ5sB66d2msMADa65CXQHcKvpLFo.jpg?r=471",
+        img: "st",
         relevancia: "99% relevante",
         clas_ind: "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
         qtd_ep: "2 temporadas",
@@ -76,7 +76,7 @@ const em_alta = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaeBTmrjFKI1GlK1J2-d4Q6kTmSOEwlrq0WUPXF79rAsO6FORY_unR467TgmawaruEI1in2DEwqSRBbuWn4xk4LBH-xrbj8z9lt6ipkjKEeleAzWEJ6otDzP9ulVixSn7Hw8.jpg?r=3cf",
+        img: "bb",
         relevancia: "96% relevante",
         clas_ind: "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
         qtd_ep: "4 episódios",
@@ -84,7 +84,7 @@ const em_alta = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcIGHwFU4tOKD1FEawce6Nj-PJPqStu4Rh7IaJmJUK9sKaFuTJ_FsYr_cG5VLe6jZb_wbAmCs1n4VZN49zJreg5aVWL66Z2jPQxB5lvCxz1KpglQ6U_VWy3A10l9bRFdzca1.jpg?r=523",
+        img: "cfr",
         relevancia: "97% relevante",
         clas_ind: "https://help.nflxext.com/aec3bb15-be1a-4f9f-94fa-f71e36163aef_icon_ratings_BR_A10_en.png",
         qtd_ep: "8 episódios",
@@ -92,7 +92,7 @@ const em_alta = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZ3XgLwoxJH9BYaeGEqr8GHWEG9QORiOfXNOSlELGfnwNGrpEJoNv-TBtZrd_pjsIYhVUA1G8FHZRjDv-UmgdiijHWiZV3e-iMyfAGwAh0CmDERZpPXV3H4cILvEs7LVHUKAUN_r-uM77DCsx1pfgrSI5v3uK9GwmCEFLqxePrGYa3ZaOUIcUN4NlupVKr7ScXoFmWHVFxaY5C1s8KyIU4qs4NorwxHnTpc9Br7nQZcirAmP2dVui5oUu1HO6AkTdeYGticce2XqWsF1wTBOlq75u8eEDwn-qZlU3G7g093EgY51uyqmFrs8.jpg?r=e4d",
+        img: "bve",
         relevancia: "98% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "2 temporadas",
@@ -100,7 +100,7 @@ const em_alta = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVBkVcfHz33ZUx4jtAAQm8VHBGeF9CqX4a-yMacdtGRJpGHjiEuHiJRmnNXudYS_9cT0ViV-dAWbW8gIC9L_mDF-1heY8QeMnxBIM1cvIF_YdL88e3mapqm_HRf8p490w9Wb.jpg?r=d22",
+        img: "ci",
         relevancia: "98% relevante",
         clas_ind: "https://help.nflxext.com/790bca57-7461-46dd-bc18-fdcb64c18ab9_icon_ratings_BR_14_en.png",
         qtd_ep: "2 temporadas",
@@ -108,7 +108,7 @@ const em_alta = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABW1MfmL6v2EEz82u33Bg6KXmwA4dz69P_vovsQLCySGNto1ryvYv2klQ8KgTOwslPefodUp5V7cieDfNwef2Vd7gnZaaG2f_-93PfLXai9bAzZprmMlSpn6yTlGzRweEwj_f.jpg?r=9fd",
+        img: "vc",
         relevancia: "97% relevante",
         clas_ind: "https://help.nflxext.com/c7693d27-63e7-47d4-95eb-71df85217448_icon_ratings_BR_18_en.png",
         qtd_ep: "4 temporadas",
@@ -118,7 +118,7 @@ const em_alta = [
 
 const doc_eua = [
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVozOyX2CBc-nsReH6Tjgg7OySnjS7qzAXN4mDFPB-xeWYsbfYYUfByPVvOJW0K_ISd9WJ2RhpbNQAKyZA5cL9eNidY2RIfuq8vERDsoji8HbkMB45dokURE-XHLqiKuiF9q.jpg?r=19e",
+        img: "abstract2",
         relevancia: "93% relevante",
         clas_ind: "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
         qtd_ep: "2 temporadas",
@@ -126,7 +126,7 @@ const doc_eua = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQxPBV00xMnXjLHXs3_u5G834AmIcO65pWCRdT9GkSh1J-2jXPOo_v391ViEjb3kd-cWz4mxlo3DNRwKALc-3ZOO3IuK6cywAg2ABkYFMKfNIACBnWX8BkO3y9P2w4UYxFW_.jpg?r=df9",
+        img: "fut",
         relevancia: "72% relevante",
         clas_ind: "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
         qtd_ep: "12 episódios",
@@ -134,7 +134,7 @@ const doc_eua = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdBmBDUMXrYnCLn6W7HD-TAHN9hRBjejxy1Ld9wHnMwGI1EUiUjaERqjBS3DXD68u58HeP5fMSOjFNQgTh5tA91f0GPUaw3DPBqbrgxz7YWpYqGHnjlMb6JPiEiq_i1OEbw8.jpg?r=e98",
+        img: "dac",
         relevancia: "91% relevante",
         clas_ind: "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
         qtd_ep: "4 episódios",
@@ -142,7 +142,7 @@ const doc_eua = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABeEs5vchgm8igMuOwaC2W43SMUQsQ38NaIG2qfUnbLUaLos8_oGHDAe77o6c0jqR1ZMv1a0IRRuzV-LQBkoMrKycM-BXSzBl-dFZ0MedNdT0OP-9EN5y2pMtKq4XPwQf_nys.jpg?r=5ae",
+        img: "sa",
         relevancia: "97% relevante",
         clas_ind: "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
         qtd_ep: "Minissérie",
@@ -150,7 +150,7 @@ const doc_eua = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABY9XUN-FdKdAv7W9BA6XNTtnNL-kWaSmbOk_ro-JsjH7gCiNyAQXzvG4XAZGCrA-XHI6Sx25rbb9G8dmOZIkSqURIiVM_dBfCXga3cCiAyqel5FJRMj1A4ejxdGwfN3OTe2D.jpg?r=5c9",
+        img: "exp",
         relevancia: "98% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "3 temporadas",
@@ -158,7 +158,7 @@ const doc_eua = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABX0xn0-mIYX5XayasrJKxNBZoKHoMKBSlcVTdWDkjF5dMbIeB78kReUOaaiyFCNKL0_L0qtz0h36nRm9iYtnVr1DEzD3CiN_6EUSHfEMyXsodAmt2VTDQ9VgUBltCyG6zfvw.jpg?r=ed1",
+        img: "cbg",
         relevancia: "90% relevante",
         clas_ind: "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
         qtd_ep: "Minissérie",
@@ -168,7 +168,7 @@ const doc_eua = [
 
 const aclam_critica = [
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSMdzWmaEM_IBBjN6ePXrrkSxnCpliUQN6JrK0g1NVVLnJbhZ3o58nTLsfqGogfd9TtP9uUMBeEJd0hEITRidl7snCGW0sm_SDjCFyPg3fTTiYwI7DNYuvaxZkgCgNoBTovj.jpg?r=697",
+        img: "SandMan",
         relevancia: "97% relevante",
         clas_ind: "https://help.nflxext.com/0e20cb34-1429-41ad-8bf9-c08616e63cf0_icon_ratings_BR_A18_en.png",
         qtd_ep: "11 episódios",
@@ -176,7 +176,7 @@ const aclam_critica = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcpWJPUNeXpIVKDsL-h6H-nNdsOMTQzjj3h0iOsmFdCNq7ktnrFk9Q1fUgzVhMjDyJ41BHdHUq0SAvGmOdGUK419flOqCNOYOqTLUd2wjZopXudZi2NeIINoS-qFN7AkzfKI.jpg?r=7f6",
+        img: "peba",
         relevancia: "92% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "6 temporadas",
@@ -184,7 +184,7 @@ const aclam_critica = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVUK0iqldH5xZsFRsM5XeDgHQC2gUxlBlJsB2KlAK3NaiWlGSn9ZdM7AwK6jad63KAsVFBwdibSkCToK757Y7gUhVxD_C1kykYiAFeA3uR8x-SOd6pDJIFEEuauT1J__K654.jpg?r=280",
+        img: "oa",
         relevancia: "93% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "2 partes",
@@ -192,7 +192,7 @@ const aclam_critica = [
     },
 
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYuKjjKMzFh6RN2q7ml5nJDrNguQzImqCdD7tTYKKUXYnliwYVjasxzPERdiwpcDhL8zqUyaRHnRhYWtajxpwaRLf1FUTtHR7CGGFkn028rZF0CCpGfBAYA-e6H0DdaVUrdO.jpg?r=393",
+        img: "DARK",
         relevancia: "88% relevante",
         clas_ind: "https://help.nflxext.com/0e20cb34-1429-41ad-8bf9-c08616e63cf0_icon_ratings_BR_A18_en.png",
         qtd_ep: "10 eposiódios",
@@ -200,7 +200,7 @@ const aclam_critica = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZvUcJ56xd0UH0atq244i0LLLtPljDqDzGu1250JZUmhAK7PvTXZCk1vwYg5lgtoL3CHrKNtJkqGAAzsVtil2KhD-6_43p5xxGb81iaRwGOYIVpWED6yloNAQ9l-JTbCaUZm.jpg?r=e31",
+        img: "dhm",
         relevancia: "95% relevante",
         clas_ind: "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
         qtd_ep: "8 episódios",
@@ -208,7 +208,7 @@ const aclam_critica = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABX3JAszGkPIQu6cYtq8MnAHQgML3LgJ55rJ5SbhvqRUMmsijHbWtDyqz57rpOkpAlmi6OF-MyD1GzwcVuIPwJctAQ0AukUMgv8tPL0_TiLMSSCBCnqOGfriudYp_Ic-1sRrT.jpg?r=847",
+        img: "nob",
         relevancia: "96% relevante",
         clas_ind: "https://help.nflxext.com/02768458-4248-4520-9d12-2f2d98826f81_icon_ratings_BR_16_en.png",
         qtd_ep: "6 temporadas",
@@ -218,7 +218,7 @@ const aclam_critica = [
 
 const assis_fds = [
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQ9MBFQyJqdHMTOHCD-tHYGvw5V7Imnx0RsfWwFYgmvaIplbBqFQqkkbVJ1Tkr4MaMLRgI4EbEI62k9VAjeFxcOxqBz2LUX9XYRIiLkhZJ-7nPKd0YAGIaOZD2xUY3Ivkkgq.jpg?r=d7f",
+        img: "arc",
         relevancia: "81% relevante",
         clas_ind: "https://help.nflxext.com/790bca57-7461-46dd-bc18-fdcb64c18ab9_icon_ratings_BR_14_en.png",
         qtd_ep: "9 episódios",
@@ -226,7 +226,7 @@ const assis_fds = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABf6NR2aU2ZKlCAHuLBDZmYoF5V424-nK1GE26M4j7HMMeIWytf4XPw4NGO-1dHGkQnFFgT3kh9ymv37XmHF9Ht2Wens5L730XTEaJmDiYuXdJeXR2zYRiYWnnn0icWujjH3N.jpg?r=bbf",
+        img: "rs",
         relevancia: "78% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "6 episódios",
@@ -234,7 +234,7 @@ const assis_fds = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQyEILSWxZ3NzBXM-5tcsUbJa6ZxqJS0Y7tA8bgaLMvBmZTTqWk9G9lame9uaY875yCcpRxao7cXrH6hdeG6vDbN3-_9N-qm-u9DpUwIBzw6EuMtrr9dZ9BmCtXA-g1Ol4WW.jpg?r=b9a",
+        img: "cvdo",
         relevancia: "96% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "3 temporadas",
@@ -242,7 +242,7 @@ const assis_fds = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXvsWSnRJpwhPmHeYJS8axTZDbZohwMZP2b6akgHpLaL3yOrIfJ7RUlkh_SHdYucyeQWSVryrUgJnI0uf92VtfaU3BC7u00FqJQdzSS5iwH-ltUXii9cuhSNadLbQWvkJp8R.jpg?r=79f",
+        img: "bio",
         relevancia: "95% relevante",
         clas_ind: "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
         qtd_ep: "2 temporadas",
@@ -250,7 +250,7 @@ const assis_fds = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZbgQpoeIp0FuRSJ8YHVu-vRjQJgLCqAQ4c4RgsXFyRrsUNUOkTlyg6wUC18vOPt1qjmSWg2y013j0vu_OAQF2caVUYmWcwzAQB3CfcPX0EWcum1NzwQvvPlkJ0tV1Ot8hVC.jpg?r=b35",
+        img: "imps",
         relevancia: "89% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "10 episódios",
@@ -258,7 +258,7 @@ const assis_fds = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVBkVcfHz33ZUx4jtAAQm8VHBGeF9CqX4a-yMacdtGRJpGHjiEuHiJRmnNXudYS_9cT0ViV-dAWbW8gIC9L_mDF-1heY8QeMnxBIM1cvIF_YdL88e3mapqm_HRf8p490w9Wb.jpg?r=d22",
+        img: "ci",
         relevancia: "98% relevante",
         clas_ind: "https://help.nflxext.com/790bca57-7461-46dd-bc18-fdcb64c18ab9_icon_ratings_BR_14_en.png",
         qtd_ep: "2 temporadas",
@@ -268,7 +268,7 @@ const assis_fds = [
 
 const pop_netflx = [
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZWidBZMBa8QPNBShxxivvCdIxHJuQimVoAqepq6dI_Fo5j7o9bQu1JCq3Sa_a5ZwqYCAg95zOkR6tFxJwTYx5MuAMQS5PIIMGM.webp?r=e8f",
+        img: "brba",
         relevancia: "97% relevante",
         clas_ind: "https://help.nflxext.com/02768458-4248-4520-9d12-2f2d98826f81_icon_ratings_BR_16_en.png",
         qtd_ep: "5 temporadas",
@@ -276,7 +276,7 @@ const pop_netflx = [
     },
 
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTCMsEsAV40gqZ2li1XyXix1iURz9QIOUmADFS1ejByRU8RCSlHMnf4R5rM7-PlVztrvElWZ0uwQ3bJR1HcFG07teZO73VgOOgQ.webp?r=a30",
+        img: "leg",
         relevancia: "91% relevante",
         clas_ind: "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
         qtd_ep: "3 temporadas",
@@ -284,7 +284,7 @@ const pop_netflx = [
     },
 
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdkpMg0dSgVnyDHb1nVhX08bNDphBpyrc5ebRCvYRRECAyJzPL7Mo74Vl6h1gPFueFSn6FbIvRL35slVIk3UYPrcdmcNz1IPWIM.webp?r=256",
+        img: "suits",
         relevancia: "97% relevante",
         clas_ind: "https://help.nflxext.com/790bca57-7461-46dd-bc18-fdcb64c18ab9_icon_ratings_BR_14_en.png",
         qtd_ep: "9 temporadas",
@@ -292,7 +292,7 @@ const pop_netflx = [
     },
 
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfIofrzCBlmkmigaSgOZMYhaulmZpR2SlHOfJ-2vTxuF-_NheFcRSs2Fv0O-lhSlml4LNz71F7EJ97yIl7YBUcpu9vSILHQ9RQRHKo-VsfZKFSxweQdCvDqks9LBxaNMFo_w.jpg?r=233",
+        img: "ae",
         relevancia: "97% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "16 episódios",
@@ -300,7 +300,7 @@ const pop_netflx = [
     },
 
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbAV2pUjbWLBN_PM4eITDL8KNNNEMojV6a_SQFrhHaaP-mDzKmtmJpnDheSCLkAv6DvIYNhL2ZMZpqwjZbLN3n4oEBukoln0CCDbL9n_4Shcm1eGg4-WWDiyGRtIeLojXNe-.jpg?r=fb9",
+        img: "calei",
         relevancia: "96% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "Minissérie",
@@ -308,7 +308,7 @@ const pop_netflx = [
     },
 
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABU5qBfVXDpaxjHQwpFGVufe8uv-tjwDj2__yoCodjzyuCMyADp3vASzNJ8GSXGHuInUv6A5tG4LfYZM4C12uUbf_MvsiExpwb3pUQ40B8JB7P5vcZMeU5oe1rAyR-qNHeZAn.jpg?r=200",
+        img: "manif",
         relevancia: "98% relevante",
         clas_ind: "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
         qtd_ep: "4 temporadas",
@@ -318,7 +318,7 @@ const pop_netflx = [
 
 const sus_tv = [
     {
-        img: "http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABU5qBfVXDpaxjHQwpFGVufe8uv-tjwDj2__yoCodjzyuCMyADp3vASzNJ8GSXGHuInUv6A5tG4LfYZM4C12uUbf_MvsiExpwb3pUQ40B8JB7P5vcZMeU5oe1rAyR-qNHeZAn.jpg?r=200",
+        img: "manif",
         relevancia: "98% relevante",
         clas_ind: "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
         qtd_ep: "4 temporadas",
@@ -326,7 +326,7 @@ const sus_tv = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZ3XgLwoxJH9BYaeGEqr8GHWEG9QORiOfXNOSlELGfnwNGrpEJoNv-TBtZrd_pjsIYhVUA1G8FHZRjDv-UmgdiijHWiZV3e-iMyfAGwAh0CmDERZpPXV3H4cILvEs7LVHUKAUN_r-uM77DCsx1pfgrSI5v3uK9GwmCEFLqxePrGYa3ZaOUIcUN4NlupVKr7ScXoFmWHVFxaY5C1s8KyIU4qs4NorwxHnTpc9Br7nQZcirAmP2dVui5oUu1HO6AkTdeYGticce2XqWsF1wTBOlq75u8eEDwn-qZlU3G7g093EgY51uyqmFrs8.jpg?r=e4d",
+        img: "bve",
         relevancia: "98% relevante",
         clas_ind: "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
         qtd_ep: "2 temporadas",
@@ -334,7 +334,7 @@ const sus_tv = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABV001g1xarsnczulP4QgAwna_3mLxLVIFBOBVXAUGh_SlrWFx9mtyypE9jtTSNsblhsqR9gHxKWY8Worm8Y9fsx635513AVXu9Q.webp?r=bc9http://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTCMsEsAV40gqZ2li1XyXix1iURz9QIOUmADFS1ejByRU8RCSlHMnf4R5rM7-PlVztrvElWZ0uwQ3bJR1HcFG07teZO73VgOOgQ.webp?r=a30",
+        img: "dn",
         relevancia: "91% relevante",
         clas_ind: "https://help.nflxext.com/02768458-4248-4520-9d12-2f2d98826f81_icon_ratings_BR_16_en.png",
         qtd_ep: "37 episódios",
@@ -342,7 +342,7 @@ const sus_tv = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYgcfrrdMUY6VAUnV8lSsRcCEgvGPHwSzrh9yhyrN4iM4t-Pn23LgzxUWmMgHaZbVZ1iOtWoQtCJUwD-DfuNzFJAG84-uSqAkj4.webp?r=27b",
+        img: "assas",
         relevancia: "89% relevante",
         clas_ind: "https://help.nflxext.com/02768458-4248-4520-9d12-2f2d98826f81_icon_ratings_BR_16_en.png",
         qtd_ep: "6 temporadas",
@@ -350,7 +350,7 @@ const sus_tv = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSqvdOleKGTzXDcmHYC5gT1NnTSKpDSavzQyyCdHDjvUB88Hq3bTW7dUxJPrYrDtX9zX3Y8scSPuGVgRcyydnhrdUOVUgo-WeFc.webp?r=a29",
+        img: "twd",
         relevancia: "90% relevante",
         clas_ind: "https://help.nflxext.com/0e20cb34-1429-41ad-8bf9-c08616e63cf0_icon_ratings_BR_A18_en.png",
         qtd_ep: "11 temporadas",
@@ -358,7 +358,7 @@ const sus_tv = [
     },
 
     {
-        img: "https://occ-0-894-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcDl0dBsxNJZbedEKOxVO4dLuP41A5x2jkW6ZzelaEhJIPoqxzUD4Ah2bEYNSxukswZfDG6TIooHj3Lm26sWqvPCEwyAiiUF5nZYbZaJwyV7KN2Y3-Tafj2kAxgaQ2J2XaIV.jpg?r=4e7",
+        img: "13rh",
         relevancia: "90% relevante",
         clas_ind: "https://help.nflxext.com/c7693d27-63e7-47d4-95eb-71df85217448_icon_ratings_BR_18_en.png",
         qtd_ep: "4 temporadas",
@@ -395,7 +395,7 @@ function renderCard(lista, titulo) {
 
     listItem.innerHTML = `
 
-    <img src="${titulo.img}">
+    <img src="../imagens/${titulo.img}.jpg">
 
     <div class="minfo">
         <div class="btns">
