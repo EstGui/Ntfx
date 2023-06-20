@@ -134,7 +134,7 @@
         padding: 2vh 4vw;
         width: 100vw;
         height: 200px;
-        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("../imagens/manifest.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("imagens/manifest.jpg");
         background-size: cover;
     }
 
@@ -473,7 +473,7 @@
     .banner {
         padding: 2vh 4vw;
         height: 400px;
-        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("../imagens/manifest.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("imagens/manifest.jpg");
         background-size: cover;
     }
 
@@ -814,7 +814,7 @@
     .banner {
         padding: 2vh 4vw;
         height: 500px;
-        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("../imagens/manifest.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("imagens/manifest.jpg");
         background-size: cover;
     }
 
@@ -1136,7 +1136,7 @@
     .banner {
         padding: 2vh 4vw;
         height: 550px;
-        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("../imagens/manifest.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("imagens/manifest.jpg");
         background-size: cover;
     }
 
@@ -1450,7 +1450,7 @@
     .banner {
         padding: 2vh 4vw;
         height: 700px;
-        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("../imagens/manifest.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("imagens/manifest.jpg");
         background-size: cover;
     }
 
@@ -1765,7 +1765,7 @@
     .banner {
         padding: 2vh 4vw;
         height: 800px;
-        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("../imagens/manifest.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("imagens/manifest.jpg");
         background-size: cover;
     }
 
