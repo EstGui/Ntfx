@@ -1,2 +1,2 @@
 # Netflix
-Site da Netflix para Portifólio
+Página inicial da Netflix responsiva.
