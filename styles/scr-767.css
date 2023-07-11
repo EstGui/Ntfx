@@ -1,0 +1,147 @@
+.slider {
+    width: 100vw;
+    overflow: visible;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+#logo {
+    width: 6.5em;
+    margin-right: 0.5vw;
+}
+
+nav {
+    height: 60px;
+    padding: 2.7vh 4vw;
+    font-size: 1em;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.navegacao ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50vw;
+    height: calc(100vh - 60px);
+    background: rgba(14, 14, 14, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in;
+}
+
+.nav-list.active {
+    transform: translateX(0);
+}
+
+
+.more {
+    font-size: 0.8em;
+}
+
+.more ul {
+    gap: 12px;
+}
+
+.user img {
+    width: 2rem;
+}
+
+.user {
+    gap: 5px;
+}
+
+.banner {
+    padding: 2vh 4vw;
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("../imagens/manifest.jpg");
+    background-size: cover;
+}
+
+.banner img {
+    width: 16rem;
+}
+
+.info {
+    width: 45%;
+    gap: 10px;
+    top: 28px;
+}
+
+.info h3 {
+    font-size: 0.9em;
+}
+
+.info p {
+    font-size: 0.75em;
+}
+
+button {
+    height: 34px;
+    font-size: 0.8em;
+}
+
+button > svg {
+    width: 4vw;
+}
+
+.assistir {
+    width: 100px;
+}
+
+.maisi {
+    width: 170px;
+}
+
+.container {
+    margin-top: -105px;
+}
+
+.recomended {
+    margin: 4vw;
+    font-size: 0.85em;
+    gap: 10px;
+}
+
+.content {
+    width: 95%;
+    overflow: auto;
+}
+
+.slider {
+    height: 110px;
+    gap: 8px;
+}
+
+.prox {
+    position: absolute;
+    left: 75.7%;
+    width: 65px;
+    height: 100%;
+    background: rgba(24, 24, 24);
+    opacity: 0.5;
+    z-index: 5;
+}
+
+.opt {
+    width: 200px;
+    height: 110px;
+}
+
+.slider {
+    overflow: visible;
+}
+
+.opt:hover img {
+    transition-delay: 0.5s;
+}

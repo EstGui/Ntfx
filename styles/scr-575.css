@@ -1,0 +1,143 @@
+.slider::-webkit-scrollbar {
+    height: 0;
+}
+
+#logo {
+    width: 5em;
+    margin-right: 0.5vw;
+}
+
+nav {
+    height: 50px;
+    padding: 2.7vh 4vw;
+    font-size: 1em;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.navegacao ul {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 50vw;
+    height: calc(100vh - 50px);
+    background: rgba(14, 14, 14, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in;
+}
+
+.nav-list.active {
+    transform: translateX(0);
+}
+
+.more svg{
+    height: 1.2em;
+}
+
+.more li{
+    font-size: 0.8em;
+}
+
+.more ul {
+    gap: 2.5px;
+}
+
+.user img {
+    width: 1.5rem;
+}
+
+.user {
+    gap: 5px;
+}
+
+.banner {
+    padding: 2vh 4vw;
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("../imagens/manifest.jpg");
+    background-size: cover;
+}
+
+.banner img {
+    width: 8.5rem;
+}
+
+.info {
+    width: 45%;
+    gap: 1.5vh;
+    top: 35px;
+}
+
+.info h3 {
+    font-size: 0.5em;
+}
+
+.info p {
+    font-size: 0.5em;
+    display: none;
+}
+
+button {
+    height: 20px;
+    font-size: 0.5em;
+}
+
+button > svg {
+    width: 4vw;
+}
+
+.maisi {
+    width: 350px;
+}
+
+.container {
+    margin-top: -35px;
+}
+
+.recomended {
+    margin: 0 4vw;
+    font-size: 0.8em;
+    gap: 0px;
+}
+
+.content {
+    width: 98%;
+    overflow: auto;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+.slider {
+    height: 110px;
+    gap: 8px;
+}
+
+.prox {
+    position: absolute;
+    left: 75.7%;
+    width: 65px;
+    height: 100%;
+    background: rgba(24, 24, 24);
+    opacity: 0.5;
+    z-index: 5;
+}
+
+.opt {
+    width: 150px;
+    height: 85px;
+}
+
+.slider {
+    overflow: scroll;
+}

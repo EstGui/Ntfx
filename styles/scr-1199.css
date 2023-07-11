@@ -1,0 +1,117 @@
+.slider {
+    width: 100vw;
+    overflow: visible;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+#logo {
+    width: 6.5em;
+}
+
+nav {
+    padding: 2.7vh 4vw;
+    font-size: 0.9em;
+}
+
+.navegacao li:hover, img:hover, .more li:hover, .more svg:hover{
+    cursor: pointer;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.navegacao ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.more ul {
+    gap: 12px;
+}
+
+.user img {
+    width: 2rem;
+}
+
+.user {
+    gap: 10px;
+}
+
+.banner {
+    padding: 2vh 4vw;
+    height: 550px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("../imagens/manifest.jpg");
+    background-size: cover;
+}
+
+.banner img {
+    width: 23rem;
+}
+
+.info {
+    width: 38%;
+    gap: 16px;
+    top: 50px;
+}
+
+.info h3 {
+    font-size: 1.2em;
+}
+
+button {
+    height: 40px;
+    font-size: 1.05em;
+}
+
+.maisi {
+    width: 220px;
+}
+
+.container {
+    margin-top: -120px;
+}
+
+.recomended {
+    margin: 4vw;
+    gap: 10px;
+}
+
+.slider {
+    height: 137px;
+    gap: 8px;
+}
+
+.opt {
+    width: 240px;
+    height: 135px;
+}
+
+.slider {
+    overflow: visible;
+}
+
+.opt:hover {
+    width: 330px;
+    height: 360px;
+    z-index: 2;
+    border-radius: 7px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+    margin: 0 -45px;
+}
+
+.opt:hover img {
+    transition-delay: 0.5s;
+}

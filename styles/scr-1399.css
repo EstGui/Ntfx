@@ -1,0 +1,141 @@
+.slider {
+    width: 100vw;
+    overflow: visible;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+#logo {
+    width: 6.5em;
+    margin-right: 2vw;
+}
+
+nav {
+    padding: 2.7vh 4vw;
+    font-size: 0.9em;
+}
+
+.navegacao li:hover, img:hover, .more li:hover, .more svg:hover{
+    cursor: pointer;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.navegacao {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.more {
+    width: 17.5%;
+}
+
+.user img {
+    width: 2rem;
+}
+
+.user {
+    gap: 10px;
+}
+
+.banner {
+    padding: 2vh 4vw;
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgb(0, 0, 0, 0) 10%), linear-gradient(90deg, rgb(0, 0, 0, 0.55), rgb(0, 0, 0, 0) 65%), linear-gradient(180deg, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0.75)), url("../imagens/manifest.jpg");
+    background-size: cover;
+}
+
+.banner img {
+    width: 29rem;
+}
+
+.info {
+    width: 37%;
+    gap: 3vh;
+    top: 90px;
+}
+
+.info h3 {
+    font-size: 1.35em;
+}
+
+button {
+    height: 45px;
+    font-size: 1.05em;
+}
+
+.maisi {
+    width: 220px;
+}
+
+.container {
+    margin-top: -150px;
+}
+
+.recomended {
+    margin: 4vw;
+    gap: 10px;
+}
+
+.slider {
+    padding-right: 2vw;
+    width: 120%;
+    height: 137px;
+    gap: 8px;
+}
+
+.opt {
+    width: 240px;
+    height: 135px;
+}
+
+.slider {
+    overflow: visible;
+}
+
+.opt:hover {
+    width: 330px;
+    height: 360px;
+    z-index: 2;
+    border-radius: 7px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+    margin: 0 -45px;
+}
+
+.opt:hover img {
+    transition-delay: 0.5s;
+}
+
+footer {
+    height: 200px;
+    background: linear-gradient(#00000000, #f300007e);
+}
+
+.contato {
+    height: 100%;
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contato a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
