@@ -394,7 +394,6 @@ function renderCard(lista, titulo) {
     listItem.classList.add("opt");
 
     listItem.innerHTML = `
-
     <img src="imagens/${titulo.img}.jpg">
 
     <div class="minfo">

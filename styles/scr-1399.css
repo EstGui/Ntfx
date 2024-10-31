@@ -94,7 +94,7 @@ button {
     padding-right: 2vw;
     width: 120%;
     height: 137px;
-    gap: 8px;
+    /* gap: 8px; */
 }
 
 .opt {
@@ -113,6 +113,10 @@ button {
     border-radius: 7px;
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
     margin: 0 -45px;
+}
+
+.slider > .opt:not(:last-child) {
+    margin-right: 7px;
 }
 
 .opt:hover img {

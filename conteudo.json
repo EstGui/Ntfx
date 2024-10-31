@@ -1,0 +1,316 @@
+{
+    "Minha Lista": [
+        {
+            "img": "SandMan",
+            "relevancia": "97% relevante",
+            "clas_ind": "https://help.nflxext.com/0e20cb34-1429-41ad-8bf9-c08616e63cf0_icon_ratings_BR_A18_en.png",
+            "qtd_ep": "11 episódios",
+            "genero": "Sombrios • Fantasia - séries • Vários protagonistas"
+        },
+        {
+            "img": "Gambito",
+            "relevancia": "97% relevante",
+            "clas_ind": "https://help.nflxext.com/02768458-4248-4520-9d12-2f2d98826f81_icon_ratings_BR_16_en.png",
+            "qtd_ep": "Minissérie",
+            "genero": "Séries dramáticas • Séries dos EUA • Séries baseadas em livros"
+        },
+        {
+            "img": "TEOTFW",
+            "relevancia": "95% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "2 temporadas",
+            "genero": "Séries dramáticas • Britânico • Sombrios"
+        },
+        {
+            "img": "DARK",
+            "relevancia": "88% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "3 temporadas",
+            "genero": "Séries dramáticas • Alemão • Séries de ficção científica"
+        },
+        {
+            "img": "abstract",
+            "relevancia": "93% relevante",
+            "clas_ind": "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
+            "qtd_ep": "2 temporadas",
+            "genero": "Séries documentais • Documentários socioculturais • Séries dos EUA"
+        },
+        {
+            "img": "lucifer",
+            "relevancia": "93% relevante",
+            "clas_ind": "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
+            "qtd_ep": "6 temporadas",
+            "genero": "Séries dramáticas • Séries policiais • Séries dos EUA"
+        }
+    ],
+
+    "Em Alta": [
+        {
+            "img": "st",
+            "relevancia": "99% relevante",
+            "clas_ind": "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
+            "qtd_ep": "2 temporadas",
+            "genero": "Aventura • Fim do mundo • Aclamados pela crítica"
+        },
+        {
+            "img": "bb",
+            "relevancia": "96% relevante",
+            "clas_ind": "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
+            "qtd_ep": "4 episódios",
+            "genero": "Nostálgico • Complexos • Drama"
+        },
+        {
+            "img": "cfr",
+            "relevancia": "97% relevante",
+            "clas_ind": "https://help.nflxext.com/aec3bb15-be1a-4f9f-94fa-f71e36163aef_icon_ratings_BR_A10_en.png",
+            "qtd_ep": "8 episódios",
+            "genero": "Inspiradores • Séries documentais • Bem-estar"
+        },
+        {
+            "img": "bve",
+            "relevancia": "98% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "2 temporadas",
+            "genero": "Psicológico • Suspense no ar • Vários protagonistas"
+        },
+        {
+            "img": "ci",
+            "relevancia": "98% relevante",
+            "clas_ind": "https://help.nflxext.com/790bca57-7461-46dd-bc18-fdcb64c18ab9_icon_ratings_BR_14_en.png",
+            "qtd_ep": "2 temporadas",
+            "genero": "Realidade alternativa • Sinistros • Fantasia - séries"
+        },
+        {
+            "img": "vc",
+            "relevancia": "97% relevante",
+            "clas_ind": "https://help.nflxext.com/c7693d27-63e7-47d4-95eb-71df85217448_icon_ratings_BR_18_en.png",
+            "qtd_ep": "4 temporadas",
+            "genero": "Esperto • Psicológico • Suspense"
+        }
+    ],
+
+    "Documentários dos EUA": [
+        {
+            "img": "abstract2",
+            "relevancia": "93% relevante",
+            "clas_ind": "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
+            "qtd_ep": "2 temporadas",
+            "genero": "Séries documentais • Documentários socioculturais • Séries dos EUA"
+        },
+        {
+            "img": "fut",
+            "relevancia": "72% relevante",
+            "clas_ind": "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
+            "qtd_ep": "12 episódios",
+            "genero": "Cativante • Séries documentais • Tecnologia"
+        },
+        {
+            "img": "dac",
+            "relevancia": "91% relevante",
+            "clas_ind": "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
+            "qtd_ep": "4 episódios",
+            "genero": "Controversos • Fascinantes • Séries documentais"
+        },
+        {
+            "img": "sa",
+            "relevancia": "97% relevante",
+            "clas_ind": "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
+            "qtd_ep": "Minissérie",
+            "genero": "Controversos • Fascinantes • Séries documentais"
+        },
+        {
+            "img": "exp",
+            "relevancia": "98% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "3 temporadas",
+            "genero": "Fascinante • Investigativo • Séries documentais"
+        },
+        {
+            "img": "cbg",
+            "relevancia": "90% relevante",
+            "clas_ind": "https://help.nflxext.com/53a43095-64ee-4a04-b49b-a7865a4e0eab_icon_ratings_BR_A12_en.png",
+            "qtd_ep": "Minissérie",
+            "genero": "Investigativos • Séries documentais • Mudança climática"
+        }
+    ],
+
+    "Séries aclamadas pela crítica": [
+        {
+            "img": "SandMan",
+            "relevancia": "97% relevante",
+            "clas_ind": "https://help.nflxext.com/0e20cb34-1429-41ad-8bf9-c08616e63cf0_icon_ratings_BR_A18_en.png",
+            "qtd_ep": "11 episódios",
+            "genero": "Sombrios • Fantasia - séries • Vários protagonistas"
+        },
+        {
+            "img": "peba",
+            "relevancia": "92% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "6 temporadas",
+            "genero": "Séries dramáticas • Britânico • Obras de época"
+        },
+        {
+            "img": "oa",
+            "relevancia": "93% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "2 partes",
+            "genero": "Realidade alternativa • Intimista • Amizade"
+        },
+        {
+            "img": "DARK",
+            "relevancia": "88% relevante",
+            "clas_ind": "https://help.nflxext.com/0e20cb34-1429-41ad-8bf9-c08616e63cf0_icon_ratings_BR_A18_en.png",
+            "qtd_ep": "10 eposiódios",
+            "genero": "Sinístros • Psicologia • Terror"
+        },
+        {
+            "img": "dhm",
+            "relevancia": "95% relevante",
+            "clas_ind": "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
+            "qtd_ep": "8 episódios",
+            "genero": "Séries dramáticas • Brasileiro • Comédias para a TV"
+        },
+        {
+            "img": "nob",
+            "relevancia": "96% relevante",
+            "clas_ind": "https://help.nflxext.com/02768458-4248-4520-9d12-2f2d98826f81_icon_ratings_BR_16_en.png",
+            "qtd_ep": "6 temporadas",
+            "genero": "Calientes • Intimista • Aventura"
+        }
+    ],
+
+    "Assista em um fim de semana": [
+        {
+            "img": "arc",
+            "relevancia": "81% relevante",
+            "clas_ind": "https://help.nflxext.com/790bca57-7461-46dd-bc18-fdcb64c18ab9_icon_ratings_BR_14_en.png",
+            "qtd_ep": "9 episódios",
+            "genero": "Séries de ação e aventura • SérieS dos EUA • Séries de fantasia"
+        },
+        {
+            "img": "rs",
+            "relevancia": "78% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "6 episódios",
+            "genero": "Suspense no ar • Comédia dramática • Fraude"
+        },
+        {
+            "img": "cvdo",
+            "relevancia": "96% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "3 temporadas",
+            "genero": "Séries dramáticas • Alemão • Séries teen"
+        },
+        {
+            "img": "bio",
+            "relevancia": "95% relevante",
+            "clas_ind": "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
+            "qtd_ep": "2 temporadas",
+            "genero": "TV sobre médicos • Séries dramáticas • Alemão"
+        },
+        {
+            "img": "imps",
+            "relevancia": "89% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "10 episódios",
+            "genero": "Irreverentes • Empolgantes • Avnetura"
+        },
+        {
+            "img": "ci",
+            "relevancia": "98% relevante",
+            "clas_ind": "https://help.nflxext.com/790bca57-7461-46dd-bc18-fdcb64c18ab9_icon_ratings_BR_14_en.png",
+            "qtd_ep": "2 temporadas",
+            "genero": "Realidade alternativa • Sinistros • Fantasia - séries"
+        }
+    ],
+
+    "Populares na Netflix": [
+        {
+            "img": "brba",
+            "relevancia": "97% relevante",
+            "clas_ind": "https://help.nflxext.com/02768458-4248-4520-9d12-2f2d98826f81_icon_ratings_BR_16_en.png",
+            "qtd_ep": "5 temporadas",
+            "genero": "Violentos • Realista • Suspense"
+        },
+        {
+            "img": "leg",
+            "relevancia": "91% relevante",
+            "clas_ind": "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
+            "qtd_ep": "3 temporadas",
+            "genero": "Realidade alternativa • Impacto visual • Superpoderes"
+        },
+        {
+            "img": "suits",
+            "relevancia": "97% relevante",
+            "clas_ind": "https://help.nflxext.com/790bca57-7461-46dd-bc18-fdcb64c18ab9_icon_ratings_BR_14_en.png",
+            "qtd_ep": "9 temporadas",
+            "genero": "Espirituoso • Comédia dramática • Tribunal"
+        },
+        {
+            "img": "ae",
+            "relevancia": "97% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "16 episódios",
+            "genero": "Inspiradores • Drama • Tribunal"
+        },
+        {
+            "img": "calei",
+            "relevancia": "96% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "Minissérie",
+            "genero": "Esperto • Suspense no ar • Mistério"
+        },
+        {
+            "img": "manif",
+            "relevancia": "98% relevante",
+            "clas_ind": "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
+            "qtd_ep": "4 temporadas",
+            "genero": "Realidade alternativa • Suspense no ar • Vários protagonistas"
+        }
+    ],
+    
+    "Suspense para TV": [
+        {
+            "img": "manif",
+            "relevancia": "98% relevante",
+            "clas_ind": "https://help.nflxext.com/18c47a92-62ed-4509-aaa1-799e538a0468_icon_ratings_BR_A14_en.png",
+            "qtd_ep": "4 temporadas",
+            "genero": "Realidade alternativa • Suspense no ar • Vários protagonistas"
+        },
+        {
+            "img": "bve",
+            "relevancia": "98% relevante",
+            "clas_ind": "https://help.nflxext.com/2c7604ae-e0f9-466a-8821-3efdbd42be2a_icon_ratings_BR_A16_en.png",
+            "qtd_ep": "2 temporadas",
+            "genero": "Psicológico • Suspense no ar • Vários protagonistas"
+        },
+        {
+            "img": "dn",
+            "relevancia": "91% relevante",
+            "clas_ind": "https://help.nflxext.com/02768458-4248-4520-9d12-2f2d98826f81_icon_ratings_BR_16_en.png",
+            "qtd_ep": "37 episódios",
+            "genero": "Animes Shounen • Japonês • Animes - mistério e suspense"
+        },
+        {
+            "img": "assas",
+            "relevancia": "89% relevante",
+            "clas_ind": "https://help.nflxext.com/02768458-4248-4520-9d12-2f2d98826f81_icon_ratings_BR_16_en.png",
+            "qtd_ep": "6 temporadas",
+            "genero": "Suspense no ar • Mistério • Tribunal"
+        },
+        {
+            "img": "twd",
+            "relevancia": "90% relevante",
+            "clas_ind": "https://help.nflxext.com/0e20cb34-1429-41ad-8bf9-c08616e63cf0_icon_ratings_BR_A18_en.png",
+            "qtd_ep": "11 temporadas",
+            "genero": "Distopia • Sangrento • Terror"
+        },
+        {
+            "img": "13rh",
+            "relevancia": "90% relevante",
+            "clas_ind": "https://help.nflxext.com/c7693d27-63e7-47d4-95eb-71df85217448_icon_ratings_BR_18_en.png",
+            "qtd_ep": "4 temporadas",
+            "genero": "Sombreos • Suspense no ar • Teen"
+        }
+    ]
+}
